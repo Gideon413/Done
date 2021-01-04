@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.1px;
+}
+
+body{
+    color: white;
+    background-color: #000000;
+}
+
+img{
+    width: 150px;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+button{
+    color: white;
+}
+
+nav button{
+    width: 85px;
+    height: 35px;
+    background-color: #F40612;
+    border: transparent;
+    border-radius: 5px;
+}
+
+#hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(/img/back.jpg);
+    border-bottom: 10px solid #222222;
+}
+
+.heroContainer{
+    width: 55%;
+}
+
+.heroTextContainer h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.heroTextContainer p{
+    text-align: center;
+    font-weight: 500;
+}
+
+p.textOne{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+p.textTwo{
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.getStartedBtn{
+    width: 255px;
+    height: 60px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #F40612;
+    border: transparent;
+}
+
+.getStarted{
+    display: flex;
+}
+
+input{
+    width: 100%;
+    outline: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#gridOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 45px;
+    border-bottom: 10px solid #222222;
+}
+
+.gridOneTexts{
+    place-self: center;
+}
+
+.gridOneTexts h1{
+    font-size: 3rem;
+}
+
+.gridOneTexts p{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.gridImage img{
+    width: 100%;
+}
+
+#faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    border-bottom: 10px solid #222222;
+}
+
+.faqGrid{
+    width: 65%;
+    display: grid;
+    grid-template-columns: 95% 5%;
+    background-color: #303030;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.faqGrid img{
+    width: 40px;
+}
+
+#faq h1{
+    font-size: 2.7rem;
+    margin-bottom: 50px;
+}
+
+.faqGrid p{
+    font-size: 1.5rem;
+}
+
+.faqEnterEmail{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#faq .getStarted{
+    width: 55%;
+}
